@@ -79,7 +79,7 @@ getSnapshot 方法可以获取到设备保存在云端的最新快照。
 
 Success:
 
-```json
+```js
 {"status":0, "error":null, "result":{
   "streams": [     // 请求返回的设备快照
     {
@@ -94,7 +94,7 @@ Success:
 
 Error:
 
-```json
+```js
 {"status": !0, "error": {"errorCode":10000, "errorInfo":""}, "result" :{}}
 ```
 
