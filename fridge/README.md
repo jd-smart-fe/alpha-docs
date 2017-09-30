@@ -88,7 +88,7 @@ getSnapshot 方法可以获取到设备保存在云端的最新快照。
 Success:
 
 ```json
-{status:0,error:null,"result":{
+{"status":0, "error":null, "result":{
   "streams": [     // 请求返回的设备快照
     {
       "stream_id": "smartmode",		
@@ -103,7 +103,7 @@ Success:
 Error:
 
 ```json
-{status:!0,error:{errorCode:10000,errorInfo:””},result:{}}
+{"status": !0, "error": {"errorCode":10000, "errorInfo":""}, "result" :{}}
 ```
 
 #### 3.2.3 下发控制命令 JDSMART.controlDevice
@@ -225,7 +225,7 @@ APP 客户端会跟云端建立长连接，而每次云端通过长连接向客�
 }
 ```
 
-[1]: 
+[1]: https://raw.githubusercontent.com/jd-smart-fe/alpha-docs/master/assets/fridge_dataflow.png
 
 
 
